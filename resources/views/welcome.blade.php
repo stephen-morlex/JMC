@@ -232,13 +232,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="client_say_testimonial_active owl-carousel">
-                    <div
+                   @forelse ($reviews as $client)
+                        <div
                         class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
                         <div class="img_testimonial">
-                            <img src="images/testimonial_img_01.png" alt="images">
+                            <img src="{{Voyager::image($client->image)}}" alt="images">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
+                        <p>{!!  substr(strip_tags($client->review),0,100) !!}</p>
                         <div class="strat_count">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
@@ -246,110 +246,13 @@
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                         </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
+                        <h5 style="color:#ffffff;">{{ $client->name }} <span style="color:#000000;">{{ $client->company }}</span></h5>
                     </div>
 
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_02.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
+                   @empty
 
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_06.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
+                   @endforelse
 
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_03.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
-
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_04.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
-
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_05.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
-
-                    <div
-                        class="item single_testimonial_promo_div client_say_testimonial_single para_default text-center">
-                        <div class="img_testimonial">
-                            <img src="images/testimonial_img_06.png" alt="images">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy
-                            text ever since.</p>
-                        <div class="strat_count">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <h5>Lora Smith <span>Google Inc</span></h5>
-                    </div>
                 </div>
             </div>
         </div>
