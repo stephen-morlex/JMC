@@ -1319,7 +1319,7 @@ h6.mb-0 {
 ========================*/
 
 .service_title_bg {
-    background: url(../images/banner_bg_servicet_page.jpg) no-repeat scroll center center;
+    background: url("/images/woman-cover.jpg") no-repeat scroll center center;
 }
 
 .service_p_single_item h3 {
@@ -1361,7 +1361,7 @@ h6.mb-0 {
 }
 
 .service_details_title_bg {
-    background: url(../images/service_details_bg.jpg) no-repeat scroll center center;
+    background: url("/images/woman-cover.jpg") no-repeat scroll center center;
 }
 
 /*col-md-3*/
@@ -1649,7 +1649,6 @@ h6.mb-0 {
     top: 0;
     height: 100%;
     width: 100%;
-
     background: rgba(0, 0, 0, 0.72);
 }
 

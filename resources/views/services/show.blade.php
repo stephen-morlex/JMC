@@ -11,8 +11,7 @@
                 <h2>Services</h2>
                 <ul class="breadcrumb">
                     <li><a href="#">Home</a></li>
-                    <li><a href="{{ route('service.index') }}">Services</a></li>
-                    <li class="active">{{ $service->title }}</li>
+                    <li class="active">Services</li>
                 </ul>
             </div>
         </div><!--container-->
