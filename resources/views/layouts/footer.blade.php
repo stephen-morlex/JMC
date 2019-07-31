@@ -8,7 +8,7 @@
                         <div class="footer_widget_content para_default">
                             <ul class="contact_info">
                                 <li><span class="icon flaticon-phone-call"></span>  020 25 23 005</li>
-                                <li><span class="icon flaticon-contact"></span> helloxpart@gmail.com</li>
+                                <li><span class="icon flaticon-contact"></span>jmc@jmc-consulting.co.ke</li>
                                 <li><span class="icon flaticon-placeholder-outline"></span>P. O. Box 7560 – 00100
                                      Nairobi, Kenya</li>
                             </ul>

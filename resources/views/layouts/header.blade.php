@@ -10,7 +10,7 @@
                         <li><i class="fa fa-phone"></i> 020 25 23 005 </li>
                         <li>
                             <i class="fa fa-envelope"></i> <a class="nocolor"
-                                href="mailto:ea.beinghuman@gmail.com">info@huge.com</a>
+                                href="mailto:jmc@jmc-consulting.co.ke">jmc@jmc-consulting.co.ke</a>
                         </li>
                     </ul>
                 </div>

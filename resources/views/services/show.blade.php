@@ -73,7 +73,7 @@
                         <p>Please find below contact details and contact us today!</p>
                         <div class="quick_contact_content quick_contact_content_about">
                             <p><i class="fa fa-phone"></i>020 25 23 005</p>
-                            <p><i class="fa fa-envelope"></i>helloxpart@gmail.com</p>
+                            <p><i class="fa fa-envelope"></i>jmc@jmc-consulting.co.ke</p>
                             <p><i class="fa fa-map-marker"></i>Nairobi,Kenya</p>
                         </div>
                     </div>
